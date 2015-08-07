@@ -5,11 +5,11 @@ Python module/cli/cgi script for cdp backup creation
 
     $ ./cdp.py [hostname] [ip] [os (LINUX/WINDOWS)] [scheduled hour] [frequency hours]
 
-####HTTP call:
+####HTTP Usage:
 
     $ curl http://hostname.tld/cdp/cdp-cgi.py?cdpserver=cdp09.solido.net&hostname=testtest01&ip=1.2.3.4&os=LINUX&schehours=2&freqhours=1
 
-####Module information ($ python3 >>> import cdp(); help(cdp);):
+####Module information (`$ python3 >>> import cdp(); help(cdp);`):
 
     NAME
         cdp
