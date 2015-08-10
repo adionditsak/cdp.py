@@ -65,8 +65,8 @@ class cdp(object):
         daily_frequency_values = {}
 
         policy_object['enabled'] = True
-        policy_object['name'] = hostname + ' daily i2'
-        policy_object['description'] = 'daily k15 i2'
+        policy_object['name'] = hostname + ' daily'
+        policy_object['description'] = 'daily k15'
         policy_object['diskSafeID'] = self.created_disksafe.id
 
         policy_object['replicationScheduleFrequencyType'] = 'DAILY'
